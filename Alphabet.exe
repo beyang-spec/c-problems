@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    char input;
+    
+    printf("Enter a single character");
+    scanf("%c", &input);
+    if (isalpha(input))
+        printf("The output is an alphabet");
+        
+        switch(toupper(input)) {
+               case 'A':
+               case 'E':
+               case 'I':
+               case 'O':
+               case 'U':
+                    printf("It is a VOWEL");
+                    break:
+        default:printf("It is a CONSONANT");
+        
+        }
+        return 0;
+}
